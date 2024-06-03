@@ -1,0 +1,12 @@
+
+
+Okay so I went a step further and made it into an actuall playwright "test" this can be ran by following the steps:
+> yarn install
+> yarn playwright install --with-deps
+> yarn playwright test
+
+Use your installer of choice if you aren't using yarn.
+
+* Note you can still do your node index.js to get the same results.
+
+I have also setup a github repo for this if you want to see my merge history. (It's not quite up to my standards, but it is close)
