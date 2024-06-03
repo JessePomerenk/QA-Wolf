@@ -43,7 +43,7 @@ async function saveHackerNewsArticles(linkCount = 10, filename = 'test') {
     const link = filteredLinks.nth(i)
     const linkText =  (await link.innerText()).replace(',', ''); // get text and remove commas to keep csv sterile
     const linkHref =  await link.getAttribute('href');
-    await saveLinkToFile(linkText, linkHref, filename);
+    await saveLinkToCsv(linkText, linkHref, filename);
   }
 }
 
