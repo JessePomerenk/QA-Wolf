@@ -23,3 +23,5 @@ export class HackerNewsPageObject {
         });
       }
 }
+
+export const filePath = "test.csv";
